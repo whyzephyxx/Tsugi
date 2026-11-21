@@ -44,3 +44,20 @@ select {
   display: inline-block;
   white-space: nowrap;
 }
+
+/* Homepage layout */
+main {
+  padding: 32px 24px;
+}
+
+main h1.tsugi-wordmark {
+  margin: 0;
+  font-size: 64px;
+  line-height: 0.9;
+}
+
+main p {
+  margin: 88px 0 0;
+  font-size: 24px;
+  line-height: 1.4;
+}
