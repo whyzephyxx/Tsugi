@@ -1,11 +1,17 @@
 {
+  "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "tsugi",
+  "main": ".open-next/worker.js",
+  "upload_source_maps": true,
   "compatibility_date": "2026-11-21",
   "compatibility_flags": [
     "nodejs_compat"
   ],
-  "main": ".open-next/worker.js",
   "assets": {
-    "directory": ".open-next/assets"
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "observability": {
+    "enabled": true
   }
 }
