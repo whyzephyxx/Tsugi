@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "TsugiCustom";
+  src: url("/fonts/Tsugi-Custom.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -25,4 +33,14 @@ input,
 textarea,
 select {
   font: inherit;
+}
+
+/* Tsugi wordmark */
+.tsugi-wordmark {
+  font-family: "TsugiCustom", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1;
+  display: inline-block;
+  white-space: nowrap;
 }
